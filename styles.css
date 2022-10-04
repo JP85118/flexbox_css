@@ -1,0 +1,108 @@
+/*
+Desafío de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+/* Arrancaremos este ejercicio por ti */
+.contenedor__span_uno {
+  display: block;
+  text-align: center;
+}
+
+
+/* Ejercicio 2 */
+
+/* Acá va tu código */
+.titulo{
+  display: none;
+}
+
+/* Ejercicio 3 */
+
+/* Acá va tu código */
+.contenedor_objetivo__ejercicio_tres{
+  position: relative;
+  top: 98px;
+  left: 198px;
+}
+
+
+/* Ejercicio 4 */
+
+/* Acá va tu código */
+.contenedor__ejercicio_cuatro{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8rem;
+}
+
+
+/* Ejercicio 5 */
+
+/* Acá va tu código */
+.contenedor__ejercicio_cinco{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.contenedor__ejercicio_cinco span:first-of-type{
+  align-self: flex-end;
+  margin-right: .8rem;
+}
+
+.contenedor__ejercicio_cinco span:last-of-type{
+  align-self: flex-start;
+}
+
+
+
+/* Ejercicio 6 */
+
+/* Acá va tu código */
+
+.contenedor__ejercicio_siete{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.elementoUno{
+  background-color: green;
+  color: white;
+  border: 2px dotted black;
+  align-self: flex-end;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.elementoTres{
+  background-color: blue;
+  color: white;
+  border: 2px groove black;
+  align-self: flex-start;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.elementoCuatro{
+  background-color: red;
+  color: white;
+  border: 5px dotted black;
+  margin-top: 2rem;
+}
+
+.elementoDos{
+  background-color: orange;
+  color: white;
+  border: 5px double black;
+  align-self: flex-start;
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+
+
